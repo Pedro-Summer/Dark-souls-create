@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.borda{
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.solaire{
+    height: 120px;
+}

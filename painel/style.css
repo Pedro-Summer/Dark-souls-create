@@ -1,0 +1,66 @@
+body{
+    color: white;
+    background-image: url(fotos/OIP.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+.logo{
+    height: 300px;
+    top: 0%;
+    
+
+}
+header{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+main{
+    text-align: center;
+
+}
+
+.overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.semlinha{
+    text-decoration: none;
+}
+.opçoes{
+    display: block;
+    margin: auto;
+    color: white;
+    width: 250px;
+    transition: all 0.5s;
+}
+.opçoes:hover{
+    background-color: rgba(175, 88, 30, 0.411);
+    
+}
+p{
+    margin: 0;
+    height: 20px;
+}
+
+.rodape{
+    z-index: 2;
+    position: relative;
+    margin-top: 202px;
+    text-align: center;
+    background-color: black;
+}
+
